@@ -1,0 +1,2 @@
+# TalentoTech
+Full Stack Basico

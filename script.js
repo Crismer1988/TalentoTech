@@ -1,6 +1,6 @@
 async function obtenerLibros() {
     try {
-        const respuesta = await fetch('https://backend-production-3a6e.up.railway.app/api/autor/getLibAut');
+        const respuesta = await fetch('http://localhost:3000/api/autor/getLibAut');
         const datos = await respuesta.json();
         
         if (datos.msg === "OK") {
